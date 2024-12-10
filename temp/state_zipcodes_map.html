@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46ae93ed8fcd6f0661bf86337d8c005e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_46ae93ed8fcd6f0661bf86337d8c005e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_46ae93ed8fcd6f0661bf86337d8c005e = L.map(
+                "map_46ae93ed8fcd6f0661bf86337d8c005e",
+                {
+                    center: [41.3575, -70.7416],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d7c503966c2111355f99db314c9c5167 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d7c503966c2111355f99db314c9c5167.addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var marker_05a09f161efffa16cb534373ca6e75de = L.marker(
+                [41.3575, -70.7416],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_793cc5ce844ab8ea48965722fd95dc6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05a09f161efffa16cb534373ca6e75de.setIcon(icon_793cc5ce844ab8ea48965722fd95dc6f);
+        
+    
+        var popup_5d6de0fda33691d8085edd707305b791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e3c80e2952b9f0eed585aefc69981d = $(`<div id="html_26e3c80e2952b9f0eed585aefc69981d" style="width: 100.0%; height: 100.0%;">Zipcode: 2535, City: Chilmark, Average Price: $1397727.00</div>`)[0];
+                popup_5d6de0fda33691d8085edd707305b791.setContent(html_26e3c80e2952b9f0eed585aefc69981d);
+            
+        
+
+        marker_05a09f161efffa16cb534373ca6e75de.bindPopup(popup_5d6de0fda33691d8085edd707305b791)
+        ;
+
+        
+    
+    
+            var marker_f310d606d6eb1abfefa5e520c6c5b41e = L.marker(
+                [42.3589, -71.3001],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_8d042b6703029d4ab23b68881b88fab1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f310d606d6eb1abfefa5e520c6c5b41e.setIcon(icon_8d042b6703029d4ab23b68881b88fab1);
+        
+    
+        var popup_21e3227617c6e592d1ded344399ff5ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bc6e8440c57f738bbc96ec35d32bb01 = $(`<div id="html_6bc6e8440c57f738bbc96ec35d32bb01" style="width: 100.0%; height: 100.0%;">Zipcode: 2493, City: Weston, Average Price: $1307378.00</div>`)[0];
+                popup_21e3227617c6e592d1ded344399ff5ef.setContent(html_6bc6e8440c57f738bbc96ec35d32bb01);
+            
+        
+
+        marker_f310d606d6eb1abfefa5e520c6c5b41e.bindPopup(popup_21e3227617c6e592d1ded344399ff5ef)
+        ;
+
+        
+    
+    
+            var marker_3a4c3b01a5440722a4467f464e7d15a1 = L.marker(
+                [42.3576, -71.0514],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_8efcf4dc9ed8e7608dcae460ba2ccbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a4c3b01a5440722a4467f464e7d15a1.setIcon(icon_8efcf4dc9ed8e7608dcae460ba2ccbe0);
+        
+    
+        var popup_134cf095b5e41dd2761970e9023b4c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c461871f5d33a9ab572fe372e92fc17 = $(`<div id="html_3c461871f5d33a9ab572fe372e92fc17" style="width: 100.0%; height: 100.0%;">Zipcode: 2110, City: Boston, Average Price: $1264598.00</div>`)[0];
+                popup_134cf095b5e41dd2761970e9023b4c79.setContent(html_3c461871f5d33a9ab572fe372e92fc17);
+            
+        
+
+        marker_3a4c3b01a5440722a4467f464e7d15a1.bindPopup(popup_134cf095b5e41dd2761970e9023b4c79)
+        ;
+
+        
+    
+    
+            var marker_3c4958e79dcb21688d1c57f557aab885 = L.marker(
+                [42.3106, -71.2747],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_487ed5c74164bc9c71a828efd993e616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3c4958e79dcb21688d1c57f557aab885.setIcon(icon_487ed5c74164bc9c71a828efd993e616);
+        
+    
+        var popup_b35bd92844b0a2a51b0d270884680d3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1bbbaf51b21d8799e35642c5545748 = $(`<div id="html_eb1bbbaf51b21d8799e35642c5545748" style="width: 100.0%; height: 100.0%;">Zipcode: 2481, City: Wellesley Hills, Average Price: $1236897.00</div>`)[0];
+                popup_b35bd92844b0a2a51b0d270884680d3a.setContent(html_eb1bbbaf51b21d8799e35642c5545748);
+            
+        
+
+        marker_3c4958e79dcb21688d1c57f557aab885.bindPopup(popup_b35bd92844b0a2a51b0d270884680d3a)
+        ;
+
+        
+    
+    
+            var marker_81d93ba515668251f0b20451173a0ba6 = L.marker(
+                [42.3576, -71.0684],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_6e721de5c1e83e312778c2ea97f83ef0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_81d93ba515668251f0b20451173a0ba6.setIcon(icon_6e721de5c1e83e312778c2ea97f83ef0);
+        
+    
+        var popup_34bfd3b4338343e70d14897b63ba530e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e6c3e44210d568cf091f0e38e250dff = $(`<div id="html_0e6c3e44210d568cf091f0e38e250dff" style="width: 100.0%; height: 100.0%;">Zipcode: 2108, City: Boston, Average Price: $1227142.00</div>`)[0];
+                popup_34bfd3b4338343e70d14897b63ba530e.setContent(html_0e6c3e44210d568cf091f0e38e250dff);
+            
+        
+
+        marker_81d93ba515668251f0b20451173a0ba6.bindPopup(popup_34bfd3b4338343e70d14897b63ba530e)
+        ;
+
+        
+    
+    
+            var marker_955390809aefbfde124b270c125f5275 = L.marker(
+                [42.0999, -72.5783],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_ede97023b09402833cec72ade37f0391 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_955390809aefbfde124b270c125f5275.setIcon(icon_ede97023b09402833cec72ade37f0391);
+        
+    
+        var popup_345db11d8bdd733450a92ba01ec7563e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5f893f0a0dc2baa1444f17f247489b = $(`<div id="html_ce5f893f0a0dc2baa1444f17f247489b" style="width: 100.0%; height: 100.0%;">Zipcode: 1105, City: Springfield, Average Price: $79101.00</div>`)[0];
+                popup_345db11d8bdd733450a92ba01ec7563e.setContent(html_ce5f893f0a0dc2baa1444f17f247489b);
+            
+        
+
+        marker_955390809aefbfde124b270c125f5275.bindPopup(popup_345db11d8bdd733450a92ba01ec7563e)
+        ;
+
+        
+    
+    
+            var marker_a143de5aec253a06346bb054a68e8018 = L.marker(
+                [42.1145, -72.5543],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_3501bb5632cf2eace5c562e0354d42b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a143de5aec253a06346bb054a68e8018.setIcon(icon_3501bb5632cf2eace5c562e0354d42b7);
+        
+    
+        var popup_03fbf5cb445a83c3bcbd00c08b4737df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af4a10709b0a8f31b9798af223d7999a = $(`<div id="html_af4a10709b0a8f31b9798af223d7999a" style="width: 100.0%; height: 100.0%;">Zipcode: 1109, City: Springfield, Average Price: $101842.00</div>`)[0];
+                popup_03fbf5cb445a83c3bcbd00c08b4737df.setContent(html_af4a10709b0a8f31b9798af223d7999a);
+            
+        
+
+        marker_a143de5aec253a06346bb054a68e8018.bindPopup(popup_03fbf5cb445a83c3bcbd00c08b4737df)
+        ;
+
+        
+    
+    
+            var marker_19657d2ae6fbb1996e56536caeee2246 = L.marker(
+                [42.1934, -72.5544],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_937c3e25110187d09617ad7fc883f265 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19657d2ae6fbb1996e56536caeee2246.setIcon(icon_937c3e25110187d09617ad7fc883f265);
+        
+    
+        var popup_30f65638874003587a70b5e84ed097db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_288835977de2d43e859e584248ec331b = $(`<div id="html_288835977de2d43e859e584248ec331b" style="width: 100.0%; height: 100.0%;">Zipcode: 1022, City: Chicopee, Average Price: $109097.00</div>`)[0];
+                popup_30f65638874003587a70b5e84ed097db.setContent(html_288835977de2d43e859e584248ec331b);
+            
+        
+
+        marker_19657d2ae6fbb1996e56536caeee2246.bindPopup(popup_30f65638874003587a70b5e84ed097db)
+        ;
+
+        
+    
+    
+            var marker_3b45804f9cd0174b9c4dc4d39b348ccf = L.marker(
+                [42.1288, -72.5778],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_94d55864323f563141b9066db50bd35b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b45804f9cd0174b9c4dc4d39b348ccf.setIcon(icon_94d55864323f563141b9066db50bd35b);
+        
+    
+        var popup_e33aead938b8a2d71d6f5d2743f91021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a912ec389fe77bcb7ca23c1e2c7a3d18 = $(`<div id="html_a912ec389fe77bcb7ca23c1e2c7a3d18" style="width: 100.0%; height: 100.0%;">Zipcode: 1104, City: Springfield, Average Price: $115026.00</div>`)[0];
+                popup_e33aead938b8a2d71d6f5d2743f91021.setContent(html_a912ec389fe77bcb7ca23c1e2c7a3d18);
+            
+        
+
+        marker_3b45804f9cd0174b9c4dc4d39b348ccf.bindPopup(popup_e33aead938b8a2d71d6f5d2743f91021)
+        ;
+
+        
+    
+    
+            var marker_7c19330c56a2b4d63427094fb37e05b4 = L.marker(
+                [42.1532, -72.505],
+                {}
+            ).addTo(map_46ae93ed8fcd6f0661bf86337d8c005e);
+        
+    
+            var icon_5457ba6634636db891bcda264f4c2f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c19330c56a2b4d63427094fb37e05b4.setIcon(icon_5457ba6634636db891bcda264f4c2f57);
+        
+    
+        var popup_7ddc284ddc034c49c1f768dd23ed863a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d68d121fd70145100c5c59f686b32516 = $(`<div id="html_d68d121fd70145100c5c59f686b32516" style="width: 100.0%; height: 100.0%;">Zipcode: 1151, City: Indian Orchard, Average Price: $117725.00</div>`)[0];
+                popup_7ddc284ddc034c49c1f768dd23ed863a.setContent(html_d68d121fd70145100c5c59f686b32516);
+            
+        
+
+        marker_7c19330c56a2b4d63427094fb37e05b4.bindPopup(popup_7ddc284ddc034c49c1f768dd23ed863a)
+        ;
+
+        
+    
+</script>
+</html>
